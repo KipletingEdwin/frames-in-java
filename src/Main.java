@@ -13,5 +13,7 @@ public class Main {
         frame.setVisible(true); //make frame visible
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
 
+        ImageIcon image = new ImageIcon("2021harrier.jpg");  //create an image Icon
+
     }
 }
