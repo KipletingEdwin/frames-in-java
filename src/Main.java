@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -15,6 +16,7 @@ public class Main {
 
         ImageIcon image = new ImageIcon("2021harrier.jpg");  //create an image Icon
         frame.setIconImage(image.getImage()); //change icon frame
+        frame.getContentPane().setBackground(new Color(123,50,250));  //change color of background
 
     }
 }
