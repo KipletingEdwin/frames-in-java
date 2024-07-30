@@ -14,6 +14,7 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
 
         ImageIcon image = new ImageIcon("2021harrier.jpg");  //create an image Icon
+        frame.setIconImage(image.getImage()); //change icon frame
 
     }
 }
